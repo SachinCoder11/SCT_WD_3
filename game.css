@@ -29,7 +29,7 @@ body {
 h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #22a3d3;
+    color: #00baff;
 }
 
 #board {
@@ -37,18 +37,18 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     justify-content: center;
-    margin: 29px;
+    margin: 30px;
 }
 
 .cell {
     width: 100px;
     height: 100px;
-    background-color: rgb(66 184 240 / 24%);
+    background-color: rgb(168 66 240 / 34%);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    border: 2px solid #11abd9;
+    border: 2px solid #01e4ff;
     cursor: pointer;
     transition: background-color 0.3s;
     border-radius: 15px;
@@ -67,12 +67,12 @@ h1 {
 
 #restart {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-    background-color: rgb(222 26 191 / 51%);
     border: none;
+    background-color: rgb(3 228 255 / 59%);
     border-radius: 30px;
     transition: background-color 0.3s;
 }
