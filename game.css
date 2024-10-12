@@ -12,23 +12,12 @@ body {
     height: 100vh;
     margin: 0;
 }
-/* 
-/* #gameContainer {
-    background-color: rgba(255, 255, 255, 0.3); /* Translucent background */
-    /* backdrop-filter: blur(10px); Blur effect for glass-like appearance */
-    /* padding: 20px; */
-    /* border-radius: 15px; Rounded corners */
-    /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); Shadow for contrast */
-    /* width: 100%; Make the container take full width */
-    /* max-width: 400px; Set a max width for responsiveness */
-    /* text-align: center; */
-    /* margin: 0 auto; Center the container */
-/* }  */ 
-#gameContainer{
-background-color: rgba(255, 255, 296, -1.5);
-    backdrop-filter: blur(5px);
-    padding-top: 10px 0px  ;
-     border-radius: 15px;
+
+#gameContainer {
+    background-color: rgba(255, 255, 296, -1.5);
+    backdrop-filter: blur(3px);
+    padding-top: 10px 0px;
+    border-radius: 15px;
     box-shadow: 0px 3px 30px #000000;
     width: 100%;
     max-width: 400px;
@@ -40,40 +29,40 @@ background-color: rgba(255, 255, 296, -1.5);
 h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #22a3d3; /* Dark text for visibility */
+    color: #22a3d3;
 }
 
 #board {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Responsive grid */
-    gap: 15px; /* Increased gap for better spacing */
-    justify-content: center; /* Center the game board */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
     margin: 29px;
 }
 
 .cell {
-    width: 100px; /* Fixed cell size */
-    height: 100px; /* Fixed cell size */
-    background-color: rgb(66 184 240 / 24%); /* More transparent cells */
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66 184 240 / 24%);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
     border: 2px solid #11abd9;
     cursor: pointer;
-    transition: background-color 0.3s; /* Smooth hover transition */
-    border-radius: 15px; /* Rounded corners for each cell */
+    transition: background-color 0.3s;
+    border-radius: 15px;
     flex-wrap: wrap;
 }
 
 .cell:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Less transparent on hover */
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 #message {
     margin-top: 20px;
     font-size: 1.2em;
-    color: rgba(0, 0, 0, 8.5); /* Dark text for visibility */
+    color: rgba(0, 0, 0, 8.5);
 }
 
 #restart {
@@ -82,13 +71,12 @@ h1 {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-    background-color: rgb(222 26 191 / 51%); /* Translucent button */
-    border: none; /* No border */
-    border-radius: 30px; /* Rounded corners for button */
-    transition: background-color 0.3s; /* Smooth hover transition */
-    /* text-colour: blue; */
+    background-color: rgb(222 26 191 / 51%);
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
 }
 
 #restart:hover {
-    background-color: rgb(217 63 197); /* Less transparent on hover */
+    background-color: rgb(217 63 197);
 }
