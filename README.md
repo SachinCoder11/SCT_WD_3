@@ -46,12 +46,12 @@ Welcome to the Tic-Tac-Toe game! This is a simple web-based implementation of th
 
 ## Contributing
 
--Contributions are welcome! If you have suggestions for improvements or features, feel free to fork the repository and submit a pull request.
+- Contributions are welcome! If you have suggestions for improvements or features, feel free to fork the repository and submit a pull request.
 
 - Feel free to add or modify any sections as needed based on your specific project details.
 
 This README now includes additional features and provides a more comprehensive overview of your project!
 
 ## Credits
--Background Image: Image by Stable Diffusion (Used in the game background).
+- Background Image: Image by Stable Diffusion (Used in the game background).
 
