@@ -1,11 +1,10 @@
-
---> Tic-Tac-Toe Game <--
+## --> Tic-Tac-Toe Game <--
 
 https://github.com/user-attachments/assets/1c693a21-42a3-4d5f-9868-7368bd009e6b
 
 
 
-Welcome to the Tic-Tac-Toe game! This is a simple web-based implementation of the classic game, where two players take turns marking their symbols (X and O) on a 3x3 grid. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game.
+- Welcome to the Tic-Tac-Toe game! This is a simple web-based implementation of the classic game, where two players take turns marking their symbols (X and O) on a 3x3 grid. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game.
 
 
 ## Features
